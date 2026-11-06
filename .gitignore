@@ -1,0 +1,10 @@
+# VS / CMake 构建产物
+out/
+build-*/
+.vs/
+
+# 编译中间文件（保留 bin/*.exe）
+bin/*.ilk
+bin/*.pdb
+bin/*.lib
+bin/*.exp
