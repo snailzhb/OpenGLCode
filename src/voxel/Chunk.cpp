@@ -9,6 +9,7 @@ namespace voxel {
 
 namespace {
 
+
 const int S = kChunkSize;
 
 void pushFace(std::vector<float>& out, const glm::vec3& p0, const glm::vec3& p1, const glm::vec3& p2,
